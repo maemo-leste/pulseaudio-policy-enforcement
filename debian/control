@@ -1,0 +1,22 @@
+Source: pulseaudio-policy-enforcement
+Section: libs
+Priority: required
+Maintainer: Merlijn Wajer <merlijn@wizzup.org>
+Build-Depends: debhelper (>= 10),
+	libpulse-dev,
+	libtool-bin,
+	autoconf,
+	automake,
+	pkg-config,
+	libdbus-1-dev,
+	libmeego-common-dev,
+	pulsecore-dev,
+Standards-Version: 4.3.0
+
+Package: pulseaudio-policy-enforcement
+Section: libs
+Priority: required
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: This package contains a pulseaudio module that enforces (mostly
+ audio) routing, corking and muting policy decisions.
