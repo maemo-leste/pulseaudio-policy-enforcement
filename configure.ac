@@ -1,6 +1,6 @@
 AC_PREREQ(2.61)
 
-AC_INIT([pulseaudio-policy-enforcement], [m4_esyscmd(./git-version-gen .tarball-version)], [mer-general@lists.merproject.org])
+AC_INIT([pulseaudio-policy-enforcement], [12.2.43], [mer-general@lists.merproject.org])
 AC_CONFIG_HEADER([config.h])
 
 DOC_SUPPORT_INIT()
